@@ -4,17 +4,21 @@
 
 
 def main(args):
+    print('zobaczysz, że maszyna jest od ciebie mądrzejsza')
     # a = 10
-    a = input('podaj liczbę: ')
+    a = int(input('podaj liczbę: '))
     # b = 5
-    b = input('podaj liczbę: ')
-    print('Suma:', a+b)
-    if a > b
-        print (a)
+    b = int(input('podaj liczbę: '))
+    # print('Suma:', a+b)
+    if a > b:
+        print ('a > b')
+    elif b > a:
+        print('a < b')
     else:
-        print (b)
+        print ('a = b')
         
-    print(a + b)
+        
+    # print(a + b)
     return 0
 
 if __name__ == '__main__':
