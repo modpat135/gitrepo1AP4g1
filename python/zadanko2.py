@@ -5,6 +5,7 @@
 
 
 def main(args):
+    
     start = stop = 0
     while start < 1:
         start = int(input('Podaj początek zakresu: '))
