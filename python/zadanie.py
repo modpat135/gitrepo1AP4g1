@@ -7,7 +7,7 @@ def main(args):
     
     a = int(input('Podaj liczbę: '))
     while a > 0 and a % 5 == 0:
-        print(a)
+        print('Jest podzielna przez 5')
             
             
             
