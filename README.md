@@ -16,3 +16,7 @@ C++
 
 cout - standardowe wyjście, terminal
 cin - standardowe wejście, terminal
+char - zmienna (znak)
+switch - zmienna której wartość chcemy sprawdzić
+case: - przypadek ^
+default: - jeśli poda inne wartości, których nie określaliśmy
