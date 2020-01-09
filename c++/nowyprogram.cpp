@@ -16,7 +16,7 @@ int main(int argc, char **argv)
         cout "podaj liczbę ocen: ";
         cin >> liczbaocen;
     }
-	for (5) {
+	for(5) {
             cout << "Podaj ocenę: ";
             cin >> ocena;
             while (ocena > 6) {
