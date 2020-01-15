@@ -24,16 +24,17 @@ void pobierzoceny(int tb[], int n) {
 float liczsrednia(int tb[], int n) {
     int suma = 0;
     for (int i = 0; i < n; i++) {
-    cout << tb[i] << " ";
-    suma = suma + tb[i]
-    }
+        // cout << tb[i] << " ";
+        suma = suma + tb[i]
+        }
+    return (float)suma /(float)n;
 }
 
-void drukuj(int tb[], int n) {
-    for (int i = 0; i < n; i++) {
-        cout << tb[i] << " ";
-    }
-}
+//void drukuj(int tb[], int n) {
+//    for (int i = 0; i < n; i++) {
+//        cout << tb[i] << " ";
+//    }
+//}
 int main(int argc, char **argv)
 {
     int n;
@@ -41,7 +42,8 @@ int main(int argc, char **argv)
     cin >> n;
     int oceny[n];
     pobierzoceny(oceny, n);
-    drukuj(oceny, n);
+    float srednia = liczsrednia(oceny, n);
+    cout << "Średnia ocen: " << srednia << endl;
 	return 0;
 }
 
