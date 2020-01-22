@@ -11,7 +11,7 @@ int suma = 0; // zasieg globalny
 void drukuj(int liczba) {
     cout << suma << endl;
     liczba += 7;
-    cout << &liczba << endl;
+    //cout << &liczba << endl;
     cout << liczba << endl;
 }
 
@@ -36,3 +36,6 @@ int main(int argc, char **argv)
 	return 0;
 }
 
+// int sumuj() {return a} zwraca wartość argumentu
+// int sumuj(int a, int b) {return suma; } przekazuje przez wartość
+// void oblicz(int &liczba) {liczba ==5; } przekazuje przez referencje
