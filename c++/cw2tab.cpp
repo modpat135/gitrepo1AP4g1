@@ -29,6 +29,17 @@ void sumujw(int t[][10], int w, int k) {
     }
 }
 
+void sumujk(int t[][10], int w, int k) {
+    int sumak = 0;
+    for(int j=0; j<k; j++) {
+        for(int i=0; i<w; i++) {
+            cout << setw(4) << t[i][j];
+            sumak += t[i][j];
+        }
+        cout << setw(6) << sumak <<endl;
+    }
+}
+
 int main(int argc, char **argv)
 {
 	int n = 0;
@@ -40,7 +51,7 @@ int main(int argc, char **argv)
     int tab[w][10];
     wypelnij(tab, w, k, n);
     sumujw( tab, w, k);
-    
+    sumujk( tab, w, k);
     
 	return 0;
 }
