@@ -15,7 +15,6 @@ void wypelnij(int t[][10], int w, int k, int n) {
             cout << i << "," << j << " " << t[i][j] << endl;
         }
     }
-    
 }
 
 void sumujw(int t[][10], int w, int k) {
